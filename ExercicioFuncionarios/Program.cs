@@ -6,6 +6,10 @@ namespace ExercicioFuncionarios {
     class Program {
         static void Main(string[] args) {
 
+            /* Programa que solicita informações ao usuário do funcionário
+             * e calcula quanto será adicionado ao salário do mesmo a partir
+             * da porcentagem que o usuário inserir. */
+
             Console.Write("How many employees will be registered? ");
             int n = int.Parse(Console.ReadLine());
 
